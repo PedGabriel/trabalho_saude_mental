@@ -64,7 +64,11 @@ body {
   	font-style: normal;
 }
 main{
-	margin: 0 8vw 0 15vw;
+	margin: 0 8vw 0 8vw;
+}
+a{
+	text-decoration: none;
+	color: black;
 }
 /*================================================================
 						   Cabaço
@@ -72,13 +76,59 @@ main{
 header a{
 	text-decoration: none;
 }
+header ul{
+	display: flex;
+	margin: 2vw 2vw 2vw 2vw;
+	justify-content: right;
+}
+header ul li{
+	margin: 0 1vw 0 1vw;
+}
+header li.atual a{
+	color: #7C7CE5;
+	font-weight: 600;
+}
 /*================================================================
 						   Homepage
-==================================================================*/
+=================================================================*/
 main h1{
 	text-align: center;
-	margin: 2vw 0vw 0 0;
-	padding: 0 5vw 0 0;
+	margin: 5vw 0vw 0 0;
 	font-size: 2.5rem;
 	color: #7C7CE5;
+}
+main.homepage section p img{
+	margin: auto;
+	display: block;
+}
+main.homepage section div {
+	margin: 5vw 0 0 0;
+}
+main.homepage section p {
+	word-spacing: 2px;
+	line-height: 140%;
+}
+main.homepage section span {
+	color: #7C7CE5;
+	font-size: 1.5rem;
+}
+
+/*==============================================================
+						   Rodapé
+===============================================================*/
+footer {
+	background-color: #d6c4f5;
+	margin: 3vw 0 0 0;
+	padding: 2vw;
+}
+footer ul{
+	display: flex;
+	justify-content: center;
+}
+footer p {
+	margin: 1vw;
+	text-align: center;
+}
+footer span {
+	font-size: 2rem;
 }
