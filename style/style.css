@@ -20,8 +20,8 @@ main{
 	margin: 0 8vw 0 8vw;
 }
 /*================================================================
-						   Cabaço
-==================================================================*/
+						   Cabeçalho
+================================================================*/
 header a{
 	text-decoration: none;
 }
@@ -44,7 +44,7 @@ main h1{
 	text-align: center;
 	margin: 5vw 0vw 0 0;
 	font-size: 2.5rem;
-	color: #7C7CE5;
+	color: #7058a7;
 }
 main.homepage section p img{
 	margin: auto;
@@ -58,15 +58,23 @@ main.homepage section p {
 	line-height: 140%;
 }
 main.homepage section span {
-	color: #7C7CE5;
+	color: #7058a7;
 	font-size: 1.5rem;
+}
+
+/*==================================================================
+						   Questionáio
+==================================================================*/
+
+main.questionario {
+	
 }
 
 /*==============================================================
 						   Rodapé
 ===============================================================*/
 footer {
-	background-color: #d6c4f5;
+	background-color: #dbcdf3;
 	margin: 3vw 0 0 0;
 	padding: 2vw;
 }
@@ -77,10 +85,12 @@ footer ul{
 footer p {
 	margin: 1vw;
 	text-align: center;
+	color: #7058a7;
 }
 footer span {
 	font-size: 2rem;
 }
 footer a {
-	margin: 0 1vw 0;
+	margin: 0 2vw 0 0;
+	color: #7058a7;
 }
