@@ -46,12 +46,19 @@ main h1{
 	font-size: 2.5rem;
 	color: #7058a7;
 }
+main.homepage img.banner {
+	margin: auto;
+	display: block;
+	background-color: #dbcdf3;
+	padding: 0 15vw 0 15vw;
+	margin: 3vw 0 0 0;
+}
 main.homepage section p img{
 	margin: auto;
 	display: block;
 }
 main.homepage section div {
-	margin: 5vw 0 0 0;
+	margin: 2vw 0 0 0;
 }
 main.homepage section p {
 	word-spacing: 2px;
