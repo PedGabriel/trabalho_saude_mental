@@ -50,11 +50,10 @@ main h1{
 	color: #7058a7;
 	font-weight: 549;
 }
-main.homepage img.banner {
-	margin: auto;
-	display: block;
+main.homepage div.banner{
+	text-align: center;	
 	background-color: #dbcdf3;
-	padding: 0 15vw 0 15vw;
+	padding: 0 0 0 0;
 	margin: 3vw 0 0 0;
 }
 main.homepage section p img{
