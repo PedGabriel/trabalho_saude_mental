@@ -84,7 +84,40 @@ main.homepage section span {
 main.questionario button {
 	display: block;
 	margin: auto;
+	color: white;
+	background-color: #7058a7;
+	padding: 1vw 2vw 1vw 2vw;
+	margin-top: 2vw;
+	font-size: 1rem;
+	font-weight: 600;
+	border: 0;
+	border-radius: 4vw;
 }
+main.questionario .content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 10px;
+  }
+  
+  main.questionario .quantidade {
+	text-align: end;
+  }
+  
+  main.questionario .answers {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+  }
+  main.questionario .finish {
+	display: none;
+	flex-direction: column;
+	gap: 10px;
+  }
+  
+  main.questionario .finish button {
+	text-align: center;
+  }
 
 /*==============================================================
 						   Rodapé
