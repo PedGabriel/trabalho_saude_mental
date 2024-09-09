@@ -81,7 +81,10 @@ main.homepage section span {
 						   Questionáio
 ==================================================================*/
 
-
+main.questionario button {
+	display: block;
+	margin: auto;
+}
 
 /*==============================================================
 						   Rodapé
@@ -107,3 +110,4 @@ footer a {
 	margin: 0 2vw 0 0;
 	color: #7058a7;
 }
+
