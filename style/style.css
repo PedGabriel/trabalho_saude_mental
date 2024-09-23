@@ -76,9 +76,8 @@ main.homepage section span {
 	font-size: 1.5rem;
 	margin: 0 0 0 2vw;
 }
-
 /*==================================================================
-						   Questionáio
+						   Questionário
 ==================================================================*/
 
 main.questionario button {
@@ -98,27 +97,30 @@ main.questionario .content {
 	flex-direction: column;
 	width: 100%;
 	gap: 10px;
-  }
+}
   
-  main.questionario .quantidade {
+main.questionario .quantidade {
 	text-align: end;
-  }
+}
   
-  main.questionario .answers {
+main.questionario .answers {
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
-  }
-  main.questionario .finish {
+}
+main.questionario .finish {
 	display: none;
 	flex-direction: column;
 	gap: 10px;
-  }
+}
   
-  main.questionario .finish button {
+main.questionario .finish button {
 	text-align: center;
-  }
-
+}
+/*==============================================================
+						   Transtornos
+===============================================================*/
+main.transtornos
 /*==============================================================
 						   Rodapé
 ===============================================================*/
