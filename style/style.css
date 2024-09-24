@@ -156,7 +156,19 @@ main.questionario .finish button {
 /*==============================================================
 						   Transtornos
 ===============================================================*/
-main.transtornos
+main section.tipos{
+	display: flex;
+}
+main section.transtornos{
+	margin-bottom: 5vw;
+}
+main section.transtornos h1{
+	margin-bottom: 6vw;
+}
+main section.transtornos h2{
+	font-size: 1.7rem;
+	margin-bottom: 2vw;
+}
 /*==============================================================
 						   Rodapé
 ===============================================================*/
