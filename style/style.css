@@ -77,10 +77,46 @@ main.homepage section span {
 	margin: 0 0 0 2vw;
 }
 /*==================================================================
+						   Tratamento
+==================================================================*/
+section.tratamento{
+	display: flex;
+}
+section.tratamento div {
+	background-color: white;
+	border-radius: 10vw;
+	padding: 4.5vw;
+	margin: 30px 10px;
+}
+section.tratamento div.psicologo {
+	background-color:#7058a7;
+	color: white;
+}
+section.tratamento div h2 {
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: #7058a7;
+	margin: 0 0 10px 0;
+}
+section.tratamento div.psicologo h2 {
+	color: white;
+}
+section.tratamento div p {
+	line-height: 140%;
+}
+section.tratamento div p span {
+	color: #7058a7;
+	font-size: 1.3rem;
+	margin: 0 0 0 10px;
+}
+section.tratamento div p span.semcor {
+	color: white;
+}
+/*==================================================================
 						   Questionário
 ==================================================================*/
 
-main.questionario button {
+main.questionario b0utton {
 	display: block;
 	margin: auto;
 	color: white;
