@@ -123,9 +123,11 @@ main.questionario section{
 main.questionario .controls{
 	margin: 0 0 1vw 0;
 }
-
+.link-proxima-pergunta {
+	color: white;
+}
 main.questionario button {
-	display: block;
+	display: block; 
 	margin: auto;
 	color: white;
 	background-color: #7058a7;
@@ -158,7 +160,7 @@ main.questionario .finish {
 	gap: 10px;
 }
   
-main.questionario .finish button {
+main.questionario button {
 	text-align: center;
 }
 main.questionario div.content{
