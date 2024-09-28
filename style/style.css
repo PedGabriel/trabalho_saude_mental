@@ -40,6 +40,19 @@ header li.atual a{
 	color: #7058a7;
 	font-weight: 600;
 }
+header nav div.banner{
+	text-align: center;	
+	background-color: #dbcdf3;
+	padding: 0 0 0 0;
+	margin: 3vw 0 0 0;
+}
+header nav section p img{
+	margin: auto;
+	display: block;
+}
+header nav section div {
+	margin: 2vw 0 0 0;
+}
 /*================================================================
 						   Homepage
 =================================================================*/
@@ -49,19 +62,6 @@ main h1{
 	font-size: 3rem;
 	color: #7058a7;
 	font-weight: 549;
-}
-main.homepage div.banner{
-	text-align: center;	
-	background-color: #dbcdf3;
-	padding: 0 0 0 0;
-	margin: 3vw 0 0 0;
-}
-main.homepage section p img{
-	margin: auto;
-	display: block;
-}
-main.homepage section div {
-	margin: 2vw 0 0 0;
 }
 main.homepage section p {
 	word-spacing: 2px;
@@ -169,8 +169,10 @@ main section.transtornos h2{
 	font-size: 1.7rem;
 	margin-bottom: 2vw;
 }
-main section.transtornos span{
+main section.transtornos p span{
 	color: #7058a7;
+	font-size: 1.3rem;
+	margin: 0 0 0 10px;
 }
 /*==============================================================
 						   Rodapé
