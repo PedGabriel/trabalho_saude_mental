@@ -106,7 +106,7 @@ section.tratamento div p {
 }
 section.tratamento div p span {
 	color: #7058a7;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	margin: 0 0 0 10px;
 }
 section.tratamento div p span.semcor {
@@ -168,11 +168,17 @@ main section.transtornos h1{
 main section.transtornos h2{
 	font-size: 1.7rem;
 	margin-bottom: 2vw;
+	text-align: center;
 }
 main section.transtornos p span{
 	color: #7058a7;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	margin: 0 0 0 10px;
+}
+main section.transtornos p{
+	word-spacing: 2px;
+	line-height: 160%;
+	text-align: justify;
 }
 /*==============================================================
 						   Rodapé
