@@ -169,6 +169,9 @@ main section.transtornos h2{
 	font-size: 1.7rem;
 	margin-bottom: 2vw;
 }
+main section.transtornos span{
+	color: #7058a7;
+}
 /*==============================================================
 						   Rodapé
 ===============================================================*/
