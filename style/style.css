@@ -40,6 +40,16 @@ header li.atual a{
 	color: #7058a7;
 	font-weight: 600;
 }
+header div.banner{
+	text-align: center;	
+	background-color: #dbcdf3;
+	padding: 0 0 0 0;
+	margin: 3vw 0 0 0;
+}
+header section p img{
+	margin: auto;
+	display: block;
+}
 /*================================================================
 						   Homepage
 =================================================================*/
@@ -50,18 +60,8 @@ main h1{
 	color: #7058a7;
 	font-weight: 549;
 }
-main.homepage div.banner{
-	text-align: center;	
-	background-color: #dbcdf3;
-	padding: 0 0 0 0;
-	margin: 3vw 0 0 0;
-}
-main.homepage section p img{
-	margin: auto;
-	display: block;
-}
 main.homepage section div {
-	margin: 2vw 0 0 0;
+	margin: 9vw 0 0 0;
 }
 main.homepage section p {
 	word-spacing: 2px;
@@ -87,6 +87,7 @@ section.tratamento div {
 	border-radius: 10vw;
 	padding: 4.5vw;
 	margin: 30px 10px;
+	margin-top: 9vw;
 }
 section.tratamento div.psicologo {
 	background-color:#7058a7;
@@ -106,7 +107,7 @@ section.tratamento div p {
 }
 section.tratamento div p span {
 	color: #7058a7;
-	font-size: 1.3rem;
+	font-size: 1.7rem;
 	margin: 0 0 0 10px;
 }
 section.tratamento div p span.semcor {
@@ -201,11 +202,24 @@ main section.transtornos h1{
 main section.transtornos h2{
 	font-size: 1.7rem;
 	margin-bottom: 2vw;
+	text-align: center;
+	color: #7058a7;
+	font-weight: 600;
+}
+main section.transtornos p{
+	word-spacing: 2px;
+	line-height: 160%;
+	text-align: justify;
+}
+main section.transtornos span{
+	color: #7058a7;
+	font-size: 1.5rem;
+	margin: 0 0 0 10px;
 }
 /*==============================================================
 						   Rodapé
 ===============================================================*/
-footer {
+footer{
 	background-color: #dbcdf3;
 	margin: 3vw 0 0 0;
 	padding: 2vw;
