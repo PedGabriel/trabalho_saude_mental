@@ -36,6 +36,9 @@ header ul{
 header ul li{
 	margin: 0 1vw 0 1vw;
 }
+header ul li a:hover{
+	color: #7058a7;
+}
 header li.atual a{
 	color: #7058a7;
 	font-weight: 600;
@@ -92,6 +95,8 @@ section.tratamento div {
 section.tratamento div.psicologo {
 	background-color:#7058a7;
 	color: white;
+	margin-left: 3vw;
+	margin-right: 3vw;
 }
 section.tratamento div h2 {
 	font-size: 1.2rem;
@@ -177,7 +182,6 @@ main.questionario section div.answers button {
 	color: black;
 	cursor: pointer;
 	border: none;
-	
 }
 main.questionario section div.answers button:hover{
 	background-color: #7058a7;
@@ -190,8 +194,8 @@ main.questionario section div.next-question button{
 /*==============================================================
 						   Transtornos
 ===============================================================*/
-main section.tipos{
-	display: flex;
+main section.tipos div{
+	margin: 4vw 0 4vw 0;
 }
 main section.transtornos{
 	margin-bottom: 5vw;
