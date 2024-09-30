@@ -61,7 +61,7 @@ main h1{
 	margin: 5vw 0vw 0 0;
 	font-size: 3rem;
 	color: #7058a7;
-	font-weight: 549;
+	font-weight: 500;
 }
 main.homepage section div {
 	margin: 9vw 0 0 0;
@@ -99,16 +99,17 @@ section.tratamento div.psicologo {
 	margin-right: 3vw;
 }
 section.tratamento div h2 {
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	font-weight: 600;
 	color: #7058a7;
-	margin: 0 0 10px 0;
+	margin: 0 0 1.5vw 0;
 }
 section.tratamento div.psicologo h2 {
 	color: white;
 }
 section.tratamento div p {
-	line-height: 140%;
+	line-height: 160%;
+	word-spacing: 2px ;
 }
 section.tratamento div p span {
 	color: #7058a7;
@@ -122,80 +123,21 @@ section.tratamento div p span.semcor {
 						   Questionário
 ==================================================================*/
 
-main.questionario section{
-	margin: 0 20vw 0 20vw;
-}
-
-main.questionario .controls{
-	margin: 0 0 1vw 0;
-}
-.link-proxima-pergunta {
-	color: white;
-}
-main.questionario button {
-	display: block; 
-	margin: auto;
-	color: white;
-	background-color: #7058a7;
-	margin-top: 2vw;
-	padding: 1vw 2vw 1vw 2vw;
-	font-size: 1rem;
-	font-weight: 600;
-	border: 0;
-	border-radius: 4vw;
-}
-main.questionario .content {
+main.questionario section div {
 	display: flex;
-	flex-direction: column;
-	width: 100%;
-	gap: 10px;
+	justify-content: center;
 }
-  
-main.questionario .quantidade {
-	text-align: end;
-}
-  
-main.questionario .answers {
-	display: flex;
-	flex-direction: column;
-	gap: 5px;
-}
-main.questionario .finish {
-	display: none;
-	flex-direction: column;
-	gap: 10px;
-}
-  
-main.questionario button {
-	text-align: center;
-}
-main.questionario div.content{
-	background-color: white;
-	border-radius: 2vw;
-}
-main.questionario span.question{
-	margin: 1vw 0 0 0 ;
-	text-align: center;
-}
-main.questionario section div.answers button {
-	background-color:#dbcdf3;
-	color: black;
-	cursor: pointer;
-	border: none;
-}
-main.questionario section div.answers button:hover{
+main.questionario a.comecar {
+	padding: 2vw;
 	background-color: #7058a7;
 	color: white;
-	transition: 0.2s;
-}
-main.questionario section div.next-question button{
-	filter: brightness(0.8);
+	border-radius: 15vw;
 }
 /*==============================================================
 						   Transtornos
 ===============================================================*/
-main section.tipos div{
-	margin: 4vw 0 4vw 0;
+main section.transtornos div{
+	margin: 0 4px 0 0;
 }
 main section.transtornos{
 	margin-bottom: 5vw;
@@ -210,10 +152,18 @@ main section.transtornos h2{
 	color: #7058a7;
 	font-weight: 600;
 }
+main section.transtornos h3 {
+	margin: 4vw 0 0 0;
+	color: #7058a7;
+	font-size: 1.5rem;
+	text-align: center;
+}
 main section.transtornos p{
 	word-spacing: 2px;
 	line-height: 160%;
 	text-align: justify;
+	margin: 2vw 0 2vw 0;
+	padding: 20px;
 }
 main section.transtornos span{
 	color: #7058a7;
