@@ -145,36 +145,36 @@ main.questionario a.comecar {
 /*==============================================================
 						   Transtornos
 ===============================================================*/
-main section.transtornos div{
+main section.principal div{
 	margin: 0 4px 0 0;
 }
-main section.transtornos{
+main section.principal{
 	margin-bottom: 5vw;
 }
-main section.transtornos h1{
+main section.principal h1{
 	margin-bottom: 6vw;
 }
-main section.transtornos h2{
+main section.principal h2{
 	font-size: 1.7rem;
 	margin-bottom: 2vw;
 	text-align: center;
 	color: #7058a7;
 	font-weight: 600;
 }
-main section.transtornos h3 {
+main section.principal h3 {
 	margin: 4vw 0 0 0;
 	color: #7058a7;
 	font-size: 1.5rem;
 	text-align: center;
 }
-main section.transtornos p{
+main section.principal p{
 	word-spacing: 2px;
 	line-height: 160%;
 	text-align: justify;
 	margin: 2vw 0 2vw 0;
 	padding: 20px;
 }
-main section.transtornos span{
+main section.principal span{
 	color: #7058a7;
 	font-size: 1.5rem;
 	margin: 0 0 0 10px;
