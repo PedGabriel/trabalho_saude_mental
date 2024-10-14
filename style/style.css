@@ -124,9 +124,9 @@ section.tratamento{
 section.tratamento div {
 	background-color: white;
 	border-radius: 10vw;
-	padding: 4.5vw;
-	margin: 30px 10px;
-	margin-top: 9vw;
+	padding: 4.5vw 3vw 3vw 3vw;
+	margin: 20px 10px;
+	margin-top: 7vw;
 }
 section.tratamento div.psicologo {
 	background-color:#7058a7;
@@ -154,6 +154,68 @@ section.tratamento div p span {
 }
 section.tratamento div p span.semcor {
 	color: white;
+}
+section.transtornos {
+	background-color: #ffffff;
+	border-radius: 10px;
+	padding: 2vw;
+}
+section.transtornos div.ansiedade{
+	display: flex;
+}
+section.transtornos div.ansiedade div{
+	padding: 2vw 1vw 2vw 1vw;
+	background-color: #7058a7;
+	color: white;
+	border-radius: 20px;
+	margin: 1vw;
+}
+section.transtornos div.ansiedade div h3{
+	font-size: 1.3rem;
+	font-weight: 600;
+	margin: 0 0 0.5vw 0;
+}
+section.transtornos div.alimentares{
+	display: flex;
+}
+section.transtornos div.alimentares div{
+	padding: 2vw 1vw 2vw 1vw;
+	background-color: #7058a7;
+	color: white;
+	border-radius: 20px;
+	margin: 1vw;
+}
+section.transtornos div.alimentares div h3{
+	font-size: 1.3rem;
+	font-weight: 600;
+	margin: 0 0 0.5vw 0;
+}
+section.transtornos div.bipolar div.primeiro{
+	padding: 2vw 1vw 2vw 1vw;
+	background-color: #7058a7;
+	color: white;
+	border-radius: 20px;
+	margin: 1vw;
+}
+section.transtornos div.bipolar div.tipos{
+	display: flex;
+}
+section.transtornos div.bipolar div.tipos div{
+	padding: 2vw 1vw 2vw 1vw;
+	background-color: #dbcdf3;
+	color: #7058a7;
+	border-radius: 20px;
+	margin: 1vw;
+}
+section.transtornos div.bipolar div h3{
+	font-size: 1.3rem;
+	font-weight: 600;
+	margin: 0 0 0.5vw 0;
+}
+section.transtornos div.bipolar div h4{
+	font-size: 1.3rem;
+	font-weight: 600;
+	margin: 0 0 0.5vw 0;
 }
 /*==================================================================
 						   Questionário
