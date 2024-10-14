@@ -79,6 +79,29 @@ main.homepage section span {
 	font-size: 1.5rem;
 	margin: 0 0 0 2vw;
 }
+section.saude div{
+	color: white;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+section.saude div div{
+	border-radius: 20px;
+	background-color: #7058a7;
+	margin: 0 0 0 2vw;
+	padding: 2vw 2vw 0vw 2vw;
+}
+section.saude p.espaco{
+	margin: 5vw 0 0 1vw;
+}
+section.saude p.link{
+	margin: 5vw 0 3vw 1vw;
+}
+section.saude p.link a{
+	color: #7058a7;
+	text-decoration: underline;
+}
 section.diferenca div.titulo{
 	display: flex;
 	justify-content: center;
@@ -111,6 +134,7 @@ section.diferenca div.conteudo p{
 section.diferenca div.conteudo p span{
 	background-color: #7058a7;
 	border-radius: 10px;
+	padding: 0 10px;
 	color: white;
 	font-size: 1rem;
 	margin: 0
@@ -159,6 +183,7 @@ section.transtornos {
 	background-color: #ffffff;
 	border-radius: 10px;
 	padding: 2vw;
+	line-height: 140%;
 }
 section.transtornos div.ansiedade{
 	display: flex;
@@ -195,7 +220,7 @@ section.transtornos div.bipolar div.primeiro{
 	background-color: #7058a7;
 	color: white;
 	border-radius: 20px;
-	margin: 1vw;
+	margin: 5vw 1vw 1vw 1vw;
 }
 section.transtornos div.bipolar div.tipos{
 	display: flex;
