@@ -72,21 +72,48 @@ main.homepage section p {
 	text-align: justify;
 }
 main.homepage section p.pUm {
-	margin: 0 0 3vw 0;
+	margin: 0 0 2vw 0;
 }
 main.homepage section span {
 	color: #7058a7;
 	font-size: 1.5rem;
 	margin: 0 0 0 2vw;
 }
-section.diferenca h2{
+section.diferenca div.titulo{
 	display: flex;
-	text-align: center;
 	justify-content: center;
-	margin: 3vw 0 0  0;
-}
-section.diferenca h2 span{
+	color: #7058a7;
 	font-size: 2rem;
+	font-weight: 600;
+	margin: 4vw 0 3vw 0 ;
+}
+section.diferenca div.titulo h2{
+	padding: 0 2vw 0 2vw;
+	text-align: center;
+	letter-spacing: 0.4vw;
+	line-height: 2.5vw;
+}
+section.diferenca div.titulo h2.difdoenca{
+	margin: 0 1.5vw 0 0;
+}
+section.diferenca div.conteudo{
+	display: flex;
+	background-color: white ;
+	border-radius: 100px;
+}
+section.diferenca div.conteudo img{
+	width: 35vw;
+	height: 35vw;
+}
+section.diferenca div.conteudo p{
+	margin: 5vw 2.5vw 0 0;
+}
+section.diferenca div.conteudo p span{
+	background-color: #7058a7;
+	border-radius: 10px;
+	color: white;
+	font-size: 1rem;
+	margin: 0
 }
 /*==================================================================
 						   Tratamento
