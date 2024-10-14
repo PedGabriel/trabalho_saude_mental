@@ -294,6 +294,39 @@ main section.principal span{
 	margin: 0 0 0 10px;
 }
 /*==============================================================
+						   cvv
+===============================================================*/
+section.cvv{
+	background-color: #ffffff;
+	padding: 10vw;
+	border-radius: 30px;
+	margin: 5vw 0 0 3vw;
+}
+section.cvv h1{
+	margin: 0;
+}
+section.cvv div.imag{
+	display: flex;
+}
+section.cvv div.imag div img{
+	height: 200px;
+	width: 200px;
+	margin: 2vw 3vw 2vw 4vw ;
+}
+	section.cvv div.imag div p{
+		margin: 2vw ;
+		font-size: 1.1rem;
+		line-height: 140%;
+	}
+	section.cvv div.imag div a{
+		background-color: #7058a7;
+		color: #ffffff;
+		padding: 15px;
+		border-radius: 30px;
+		margin: 4vw 2vw 4vw 2vw ;
+	}
+
+/*==============================================================
 						   Rodapé
 ===============================================================*/
 footer{
