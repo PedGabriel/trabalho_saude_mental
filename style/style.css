@@ -179,6 +179,119 @@ section.tratamento div p span {
 section.tratamento div p span.semcor {
 	color: white;
 }
+/*==================================================================
+						   Questionário
+==================================================================*/
+
+main.questionario section div {
+	display: flex;
+	justify-content: center;
+}
+main.questionario a.comecar {
+	padding: 2vw;
+	background-color: #7058a7;
+	color: white;
+	border-radius: 15vw;
+}
+/*==============================================================
+						   Transtornos
+===============================================================*/
+main section.principal div{
+	margin: 0 4px 0 0;
+}
+main section.principal{
+	margin-bottom: 5vw;
+}
+main section.principal h1{
+	margin-bottom: 6vw;
+}
+main section.principal h2{
+	font-size: 1.7rem;
+	margin-bottom: 2vw;
+	text-align: center;
+	color: #7058a7;
+	font-weight: 600;
+}
+main section.principal h3 {
+	margin: 4vw 0 0 0;
+	color: #7058a7;
+	font-size: 1.5rem;
+	text-align: center;
+}
+main section.principal p{
+	word-spacing: 2px;
+	line-height: 160%;
+	text-align: justify;
+	margin: 2vw 0 2vw 0;
+	padding: 20px;
+}
+main section.principal span{
+	color: #7058a7;
+	font-size: 1.5rem;
+	margin: 0 0 0 10px;
+}
+
+section.transtornos {
+	background-color: white;
+	margin: 5vw 0 0 3vw;
+}
+section.transtornos h1 {
+	margin-bottom: 3vw;
+}
+div.divtranstornos {
+	display: flex;
+	justify-content: center;
+	background-color: #7058a7;
+	color: white;
+	border-radius: 20px;
+	padding: 2vw;
+	line-height: 120%;
+	font-size: 1.1rem;
+}
+div.bipolar {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 3vw;
+	display: flex;
+	justify-content: center;
+	background-color: #7058a7;
+	color: white;
+	border-radius: 20px;
+	padding: 2vw;
+	line-height: 120%;
+	font-size: 1.1rem;
+}
+.tipos h4 {
+	font-size: 1.3rem;
+	font-weight: 600;
+	margin-bottom: 0.5vw;
+}
+div.tipos {
+	display: flex;
+	justify-content: space-between;
+}
+div.tipo {
+	background-color: #dbcdf3;
+	color: #7058a7;
+	border-radius: 20px;
+	padding: 2vw;
+	line-height: 120%;
+	font-size: 1.1rem;
+	margin-right: 2vw;
+	width: 30%;
+	
+}
+div.tipo1 {
+	background-color: #dbcdf3;
+	color: #7058a7;
+	border-radius: 20px;
+	padding: 2vw;
+	line-height: 120%;
+	font-size: 1.1rem;
+	width: 30%;
+}
+
+/*
 section.transtornos {
 	background-color: #ffffff;
 	border-radius: 10px;
@@ -242,64 +355,13 @@ section.transtornos div.bipolar div h4{
 	font-weight: 600;
 	margin: 0 0 0.5vw 0;
 }
-/*==================================================================
-						   Questionário
-==================================================================*/
-
-main.questionario section div {
-	display: flex;
-	justify-content: center;
-}
-main.questionario a.comecar {
-	padding: 2vw;
-	background-color: #7058a7;
-	color: white;
-	border-radius: 15vw;
-}
-/*==============================================================
-						   Transtornos
-===============================================================*/
-main section.principal div{
-	margin: 0 4px 0 0;
-}
-main section.principal{
-	margin-bottom: 5vw;
-}
-main section.principal h1{
-	margin-bottom: 6vw;
-}
-main section.principal h2{
-	font-size: 1.7rem;
-	margin-bottom: 2vw;
-	text-align: center;
-	color: #7058a7;
-	font-weight: 600;
-}
-main section.principal h3 {
-	margin: 4vw 0 0 0;
-	color: #7058a7;
-	font-size: 1.5rem;
-	text-align: center;
-}
-main section.principal p{
-	word-spacing: 2px;
-	line-height: 160%;
-	text-align: justify;
-	margin: 2vw 0 2vw 0;
-	padding: 20px;
-}
-main section.principal span{
-	color: #7058a7;
-	font-size: 1.5rem;
-	margin: 0 0 0 10px;
-}
+*/
 /*==============================================================
 						   cvv
 ===============================================================*/
 section.cvv{
 	background-color: #ffffff;
 	padding: 10vw;
-	border-radius: 30px;
 	margin: 5vw 0 0 3vw;
 }
 section.cvv h1{
