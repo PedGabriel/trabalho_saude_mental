@@ -407,9 +407,10 @@ section.cvv div.imag{
 	display: flex;
 }
 section.cvv div.imag div img{
-	height: 200px;
-	width: 200px;
+	height: 300px;
+	width: 300px;
 	margin: 2vw 3vw 2vw 4vw ;
+	border-radius: 6vw;
 }
 	section.cvv div.imag div p{
 		margin: 2vw ;
