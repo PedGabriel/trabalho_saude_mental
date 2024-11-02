@@ -14,7 +14,7 @@ html{
 	font-size: calc(15px + 0.390625vw);
 }
 body {
-   	background-color:#f5f3ff ;
+   background-color:#f5f3ff ;
   	font-family: "Poppins", sans-serif;
   	font-style: normal;
 	overflow: scroll;
@@ -22,49 +22,85 @@ body {
 main{
 	margin: 0 8vw 0 8vw;
 }
+a {
+	text-decoration: none;
+}
 /*================================================================
 						   Cabeçalho
 ================================================================*/
-header a{
-	text-decoration: none;
+header div.menusEmCima {
+	position: absolute;
+	width: 90%;
+	min-height: 4vw;
+	padding: 0 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f5f3ff;
+	padding-bottom: 2vw;
+	margin-top: -2vw;
+}
+header .Logo {
+
 }
 header ul{
-	display: flex;
-	margin: 2vw 2vw 2vw 2vw;
-	justify-content: right;
+	position: relative;
 }
 header ul li{
-	margin: 0 1vw 0 1vw;
+	position: relative;
+   list-style: none;
+   float: left;
+}
+header ul li a {
+	color: #000000;
+	padding: 20px 25px;
+	display: flex;
+	justify-content: space-between;
 }
 header ul li a:hover{
 	color: #7058a7;
 }
+header ul li ul {
+	position: absolute;
+	left: 0;
+	width: 200px;
+	background: #dbcdf3;
+	display: none;
+}
+header ul li:hover ul{
+	display: block;
+}
 header li.atual a{
+	color: #7058a7;
+	font-weight: 600;
+}
+.atual1 {
 	color: #7058a7;
 	font-weight: 600;
 }
 header div.banner{
 	text-align: center;	
 	background-color: #dbcdf3;
-	padding: 0 0 0 0;
+	padding: 8vw 0 2vw 0;
 	margin: 3vw 0 0 0;
 }
 header section p img{
 	margin: auto;
 	display: block;
 }
+
 /*================================================================
 						   Homepage
 =================================================================*/
 main h1{
 	text-align: center;
-	margin: 5vw 0vw 0 0;
+	margin: 8vw 0vw 0 0;
 	font-size: 3rem;
 	color: #7058a7;
 	font-weight: 500;
 }
 main.homepage section div {
-	margin: 9vw 0 0 0;
+	margin: 4vw 0 0 0;
 }
 main.homepage section p {
 	word-spacing: 2px;
