@@ -43,8 +43,8 @@ header div.menusEmCima {
 	padding-bottom: 2vw;
 	margin-top: -2vw;
 }
-header .Logo {
-
+header .imagemHeader img {
+	width: 80px;
 }
 header ul{
 	position: relative;
@@ -84,7 +84,7 @@ header li.atual a{
 header div.banner{
 	text-align: center;	
 	background-color: #dbcdf3;
-	padding: 8vw 0 2vw 0;
+	padding: 11vw 0 2.5vw 0;
 	margin: 3vw 0 0 0;
 }
 header section p img{
