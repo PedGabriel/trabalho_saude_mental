@@ -44,7 +44,10 @@ header div.menusEmCima {
 	margin-top: -2vw;
 }
 header .imagemHeader img {
-	width: 80px;
+	width: 40px;
+	background-color: #dbcdf3;
+	padding: 1vw;
+	border-radius: 100px;
 }
 header ul{
 	position: relative;
@@ -84,7 +87,7 @@ header li.atual a{
 header div.banner{
 	text-align: center;	
 	background-color: #dbcdf3;
-	padding: 11vw 0 2.5vw 0;
+	padding: 10vw 0 3vw 0;
 	margin: 3vw 0 0 0;
 }
 header section p img{
@@ -113,7 +116,7 @@ main.homepage section p {
 main.homepage section p.pUm {
 	margin: 0 0 2vw 0;
 }
-main.homepage section span {
+main.homepage section span.primeira {
 	color: #7058a7;
 	font-size: 1.5rem;
 	margin: 0 0 0 2vw;
@@ -124,7 +127,6 @@ section.saude div{
 	justify-content: center;
 	text-align: center;
 }
-
 section.saude div div{
 	border-radius: 20px;
 	background-color: #7058a7;
@@ -135,7 +137,7 @@ section.saude p.espaco{
 	margin: 5vw 0 0 1vw;
 }
 section.saude p.link{
-	margin: 5vw 0 3vw 1vw;
+	margin: 5vw 0 8vw 1vw;
 }
 section.saude p.link a{
 	color: #7058a7;
@@ -175,6 +177,7 @@ section.diferenca div.conteudo{
 	display: flex;
 	background-color: white ;
 	border-radius: 100px;
+	padding-bottom: 4vw;
 }
 section.diferenca div.conteudo img{
 	width: 35vw;
@@ -183,13 +186,13 @@ section.diferenca div.conteudo img{
 section.diferenca div.conteudo p{
 	margin: 5vw 2.5vw 0 0;
 }
-section.diferenca div.conteudo p span{
+.textoBonitinho{
 	background-color: #7058a7;
 	border-radius: 10px;
 	padding: 0 10px;
 	color: white;
 	font-size: 1rem;
-	margin: 0
+	margin: 0;
 }
 /*==================================================================
 						   Tratamento
@@ -219,7 +222,6 @@ section.tratamento div h2 {
 section.tratamento div.psicologo h2 {
 	color: white;
 }
-/*font-family: "Oleo Script", system-ui*/
 section.tratamento div p {
 	line-height: 160%;
 	word-spacing: 2px ;
@@ -285,11 +287,23 @@ main section.principal span{
 }
 
 section.transtornos {
-	background-color: white;
-	margin: 5vw 0 0 3vw;
+	margin: 5vw 0 0 0;
 }
 section.transtornos h1 {
 	margin-bottom: 3vw;
+}
+.transtornos img {
+	width: 250px;
+	margin-left: 2vw;
+}
+.mudarPraBaixo {
+	margin-bottom: 1vw;
+}
+.mudarBaixo {
+	margin-top: 4vw;
+}
+.mudarBipolar {
+	margin-top: 3.5vw;
 }
 div.divtranstornos {
 	display: flex;
@@ -317,7 +331,7 @@ div.bipolar {
 .tipos h4 {
 	font-size: 1.3rem;
 	font-weight: 600;
-	margin-bottom: 0.5vw;
+	margin-bottom: 1vw;
 }
 div.tipos {
 	display: flex;
@@ -343,72 +357,6 @@ div.tipo1 {
 	font-size: 1.1rem;
 	width: 30%;
 }
-
-/*
-section.transtornos {
-	background-color: #ffffff;
-	border-radius: 10px;
-	padding: 2vw;
-	line-height: 140%;
-}
-section.transtornos div.ansiedade{
-	display: flex;
-}
-section.transtornos div.ansiedade div{
-	padding: 2vw 1vw 2vw 1vw;
-	background-color: #7058a7;
-	color: white;
-	border-radius: 20px;
-	margin: 1vw;
-}
-section.transtornos div.ansiedade div h3{
-	font-size: 1.3rem;
-	font-weight: 600;
-	margin: 0 0 0.5vw 0;
-}
-section.transtornos div.alimentares{
-	display: flex;
-}
-section.transtornos div.alimentares div{
-	padding: 2vw 1vw 2vw 1vw;
-	background-color: #7058a7;
-	color: white;
-	border-radius: 20px;
-	margin: 1vw;
-}
-section.transtornos div.alimentares div h3{
-	font-size: 1.3rem;
-	font-weight: 600;
-	margin: 0 0 0.5vw 0;
-}
-section.transtornos div.bipolar div.primeiro{
-	padding: 2vw 1vw 2vw 1vw;
-	background-color: #7058a7;
-	color: white;
-	border-radius: 20px;
-	margin: 5vw 1vw 1vw 1vw;
-}
-section.transtornos div.bipolar div.tipos{
-	display: flex;
-}
-section.transtornos div.bipolar div.tipos div{
-	padding: 2vw 1vw 2vw 1vw;
-	background-color: #dbcdf3;
-	color: #7058a7;
-	border-radius: 20px;
-	margin: 1vw;
-}
-section.transtornos div.bipolar div h3{
-	font-size: 1.3rem;
-	font-weight: 600;
-	margin: 0 0 0.5vw 0;
-}
-section.transtornos div.bipolar div h4{
-	font-size: 1.3rem;
-	font-weight: 600;
-	margin: 0 0 0.5vw 0;
-}
-*/
 /*==============================================================
 						   cvv
 ===============================================================*/
@@ -416,6 +364,7 @@ section.cvv{
 	background-color: #ffffff;
 	padding: 10vw;
 	margin: 5vw 0 0 3vw;
+	border-radius: 18px;
 }
 section.cvv h1{
 	margin: 0;
