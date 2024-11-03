@@ -6,6 +6,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display:ital@0;1&family=Fjalla+One&family=Lilita+One&family=Unlock&family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display:ital@0;1&family=Fjalla+One&family=Lilita+One&family=Oleo+Script:wght@400;700&family=Unlock&family=Varela+Round&display=swap');
 
 /*================================================================
 						   Geral
@@ -142,18 +145,31 @@ section.diferenca div.titulo{
 	display: flex;
 	justify-content: center;
 	color: #7058a7;
-	font-size: 2rem;
+	font-size: 2.2rem;
 	font-weight: 600;
 	margin: 4vw 0 3vw 0 ;
+	font-family: "DM Serif Display", serif;
 }
 section.diferenca div.titulo h2{
 	padding: 0 2vw 0 2vw;
 	text-align: center;
-	letter-spacing: 0.4vw;
+	letter-spacing: 0.2vw;
 	line-height: 2.5vw;
 }
+div.titulo span.fontedif {
+	font-family: "Oleo Script", system-ui;
+	letter-spacing: normal;
+	font-size: 2.1rem;
+	margin-right: 1.9vw;
+}
+div.titulo span.fontedif2 {
+	font-family: "Oleo Script", system-ui;
+	letter-spacing: normal;
+	font-size: 2.1rem;
+	margin-right: 2.2vw;
+}
 section.diferenca div.titulo h2.difdoenca{
-	margin: 0 1.5vw 0 0;
+	margin: 0 1.6vw 0 1.3vw;
 }
 section.diferenca div.conteudo{
 	display: flex;
@@ -203,6 +219,7 @@ section.tratamento div h2 {
 section.tratamento div.psicologo h2 {
 	color: white;
 }
+/*font-family: "Oleo Script", system-ui*/
 section.tratamento div p {
 	line-height: 160%;
 	word-spacing: 2px ;
