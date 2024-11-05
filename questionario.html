@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde Mental</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/ea2b214ad9.js" crossorigin="anonymous"></script>
+    <title>Questionário</title>
+</head>
+
+<body>
+    <header>
+        <div class="menusEmCima">
+            <div class="imagemHeader">
+                <a href="index.html"><img src="src/images/logo.png" alt="LOGO"></a>
+            </div>
+        <div class="menuToggle"></div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Principal</a>
+                </li>
+                <li>
+                    <a href="transtornos.html">Transtornos<span class="fa-solid fa-angle-down"></span></a>
+                    <ul>
+                        <li>
+                            <a href="ansiedade.html">Ansiedade</a>
+                        </li>
+                        <li>
+                            <a href="deprecao.html">Depressão</a>
+                        </li>
+                        <li>
+                            <a href="transtornosAlimentares.html">Transtornos Alimentares</a>
+                        </li>
+                        <li>
+                            <a href="borderline.html"> Borderline</a>
+                        </li>
+                        <li>
+                            <a href="bipolaridade.html">Bipolaridade</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="atual">
+                    <a href="tratamento.html">Tratamento</a>
+                </li>
+                <li>
+                    <a href="cvv.html">CVV</a>
+                </li>
+            </ul>
+        </div>
+            <div class="banner">
+                <img src="src/images/banner.png" alt="banner">
+            </div>
+        </nav>
+    </header>
+    <main class="questionario">
+        <section>
+            <div class="separarquestionario">
+                <p><span class="fa-solid fa-triangle-exclamation"></span></p>
+                 <p class="aviso">
+                    Esse questionário tem o intuito de ajudá-lo em questões gerais sobre a sua saúde mental e não possui nenhuma revisão profissional, por isso, pedimos para não levá-lo como verdade absoluta mas como uma fonte de recomendações sobre hábitos gerais e de auto-conhecimento básico.
+                </p>
+                <p><span class="fa-solid fa-triangle-exclamation"></span></p>
+        </div>
+        </section>
+        <section class="mudarCorQuestionario">
+            <h1>Questionário de Sim ou Não</h1>
+
+            <button id="iniciar" onclick="iniciarQuestionario()">Iniciar Questionário</button>
+    
+            <div id="pergunta" style="display: none;"></div>
+        
+            <div id="botoes" style="display: none;">
+                <button onclick="responder(true)">Sim</button>
+                <button onclick="responder(false)">Não</button>
+            </div>
+        
+            <!-- Área para exibir o resultado final -->
+            <div id="resultado" style="display: none;"></div>
+        
+            <script>
+                const perguntas = [
+                    "Você sente dificuldade em relaxar?",
+                    "Você se sente constantemente ansioso ou preocupado?",
+                    "Você tem dificuldade em manter o foco nas suas atividades diárias?",
+                    "Você se sente desmotivado ou sem energia com frequência?",
+                    "Você costuma ter variações bruscas de humor?",
+                    "Você evita situações sociais por medo ou desconforto?",
+                    "Você sente que não consegue lidar bem com o estresse?",
+                    "Você se sente sobrecarregado com frequência?",
+                    "Você costuma duvidar do seu valor ou habilidades?",
+                    "Você sente que a vida perdeu o sentido ou propósito?"
+                ];
+        
+                const respostasPositivas = [
+                    "Dificuldade em relaxar: Experimente incluir atividades relaxantes na sua rotina, como a meditação, a respiração profunda, yoga, alongamentos, etc. Também é possível utilizar técnicas de mindfulness, ou comportamentos que te deixam calmo(a) para diminuir a tensão e promover o relaxamento.",
+                    "Ansiedade ou preocupação constante: Pratique a auto-observação, anotando seus pensamentos para entender melhor os padrões de preocupação. Ter um diário ou usar tecnicas de meditação focadas em entender a origem da ansiedade pode ajudar, e procurar apoio psicológico pode ser fundamental para aprender a gerenciar a ansiedade.",
+                    "Dificuldade em manter o foco: Utilize métodos como a Pomodoro (intervalos de 25 minutos de concentração, intercalados com 5 minutos de intervalo) ou outras tecnicas de foco e concentração. É possível aprimorar essas habilidades ao priorizar o descanso e manter uma alimentação balanceada.",
+                    "Sensação frequente de desmotivação ou falta de energia: Procure pequenos prazeres em sua rotina e defina objetivos que possam ser alcançados, é ideal a jornada para conclusão de seus objetivos tenha um propósito forte. A prática regular de exercícios físicos libera endorfinas, o que pode contribuir para o aprimoramento do humor e da disposição.",
+                    "Variações bruscas de humor: Ache estímulos que possam estar causando essas alterações, como estresse, fadiga ou determinados alimentos. Definir um regime de sono e atividades que gosta pode contribuir para a manutenção de um humor mais estável.",
+                    "Evita situações sociais por medo ou desconforto: Lide com esse medo aos poucos, iniciando com encontros sociais menores e aumentando progressivamente, se forçar a não evitar essas situações ajuda a não se sentir desconfortavel nelas. Ações de autoestima e autoconhecimento como identificar suas habilidades, também podem auxiliar.",
+                    "Dificuldade em lidar com o estresse: Procure estruturar sua rotina para prevenir excesso de trabalho, delegar tarefas sempre que viável e separar momentos para atividades de relaxamento. Lembrar que está no controle da suas emoçoes e realizar atividades físicas constantes também pode ser uma grande parceira na diminuição do estresse.",
+                    "Sensação frequente de sobrecarga: Exercite o autocuidado, dedicando tempo ao que lhe proporciona prazer e serenidade. Estabelecer limites e aprender a dizer NÃO também contribui para evitar excesso de trabalho.",
+                    "Dúvidas frequentes sobre seu valor ou habilidades: Pondere sobre suas realizações e tente identificar suas habilidades. Falar com amigos ou até mesmo com um terapeuta pode contribuir para o aumento da confiança. Você quase sempre se ve muito pior do que realmente é, tente falar consigo mesmo acerca de suas conquistas como falaria com seu melhor amigo.",
+                    "Sentimento de falta de propósito ou sentido: Encontre atividades e princípios que são verdadeiramente significativos para você, metas alcançaveis e o que você realmente almeja. A terapia também pode auxiliar na exploração de interesses e na identificação do que pode acrescentar mais significado à sua vida."
+                ];
+        
+                let indicePergunta = 0;
+                let respostasSelecionadas = [];
+                let resultadoDiv = document.getElementById("resultado");
+                let perguntaDiv = document.getElementById("pergunta");
+        
+                function iniciarQuestionario() {
+                    indicePergunta = 0;
+                    respostasSelecionadas = [];
+                    document.getElementById("iniciar").style.display = "none"; // Esconde o botão "Iniciar"
+                    perguntaDiv.style.display = "block";
+                    document.getElementById("botoes").style.display = "block";
+                    mostrarPergunta();
+                }
+        
+                function mostrarPergunta() {
+                    if (indicePergunta < perguntas.length) {
+                        perguntaDiv.innerText = perguntas[indicePergunta];
+                    } else {
+                        mostrarResultado();
+                    }
+                }
+        
+                function responder(sim) {
+                    if (sim) {
+                        respostasSelecionadas.push(respostasPositivas[indicePergunta]);
+                    }
+                    indicePergunta++;
+                    mostrarPergunta();
+                }
+        
+                function mostrarResultado() {
+                    perguntaDiv.style.display = "none";
+                    document.getElementById("botoes").style.display = "none";
+                    resultadoDiv.style.display = "block";
+                    resultadoDiv.innerHTML = "<h2>Resultados</h2>" + respostasSelecionadas.map(texto => `<p>${texto}</p>`).join("");
+                }
+            </script>
+        </section>
+        <footer>
+            <nav>
+                <p>Copyright - Todos os direitos reservados &copy;2024</p>
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/saudemental_ifc/"><span
+                                class="fa-brands fa-instagram"></span></a>
+                    </li>
+                    <li>
+                        <a href="https://x.com/SaudeMentalIFC"><span class= "fa-brands fa-twitter"> </span></a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+        <script src="script.js" type="module"></script>
+    </body>
+    </html>

@@ -238,15 +238,44 @@ section.tratamento div p span.semcor {
 						   Questionário
 ==================================================================*/
 
-main.questionario section div {
+.questionario section.mudarCorQuestionario{
+	background-color: #7058a7;
+	padding: 4vw 2vw 2vw 4vw;
+	border-radius: 30px;
+	margin-top: 2vw;
+}
+.separarquestionario {
 	display: flex;
 	justify-content: center;
-}
-main.questionario a.comecar {
-	padding: 2vw;
 	background-color: #7058a7;
+	margin-top: 5vw;
+	padding: 2vw;
+	border-radius: 15px;
 	color: white;
-	border-radius: 15vw;
+}
+p.aviso {
+	line-height: 150%;
+	font-weight: 700;
+	text-align: center;
+	font-size: calc(13px + 0.3vw)
+}
+.questionario span.fa-solid {
+	font-size: 2rem;
+	margin-top: 15px;
+}
+.questionario button {
+	display: block;
+	margin: auto;
+	border: none;
+	padding: 2vw;
+	border-radius: 70px;
+	background-color: #f5f3ff;
+	color: #7058a7;
+	font-size: 1.2rem;
+}
+.questionario h2 {
+	font-size: 2rem;
+	color: white;
 }
 /*==============================================================
 						   Transtornos
@@ -346,7 +375,6 @@ div.tipo {
 	font-size: 1.1rem;
 	margin-right: 2vw;
 	width: 30%;
-	
 }
 div.tipo1 {
 	background-color: #dbcdf3;
