@@ -44,11 +44,14 @@
                         </li>
                     </ul>
                 </li>
-                <li class="atual">
+                <li>
                     <a href="tratamento.html">Tratamento</a>
                 </li>
                 <li>
                     <a href="cvv.html">CVV</a>
+                </li>
+                <li class="atual">
+                    <a href="questionario.html">Questionário</a>
                 </li>
             </ul>
         </div>
@@ -67,19 +70,23 @@
                 <p><span class="fa-solid fa-triangle-exclamation"></span></p>
         </div>
         </section>
-        <section class="mudarCorQuestionario">
+        <section class="mudarQuestionario">
+
             <h1>Questionário de Sim ou Não</h1>
+
 
             <button id="iniciar" onclick="iniciarQuestionario()">Iniciar Questionário</button>
     
+
             <div id="pergunta" style="display: none;"></div>
         
+
             <div id="botoes" style="display: none;">
                 <button onclick="responder(true)">Sim</button>
                 <button onclick="responder(false)">Não</button>
             </div>
         
-            <!-- Área para exibir o resultado final -->
+
             <div id="resultado" style="display: none;"></div>
         
             <script>
@@ -117,9 +124,9 @@
                 function iniciarQuestionario() {
                     indicePergunta = 0;
                     respostasSelecionadas = [];
-                    document.getElementById("iniciar").style.display = "none"; // Esconde o botão "Iniciar"
+                    document.getElementById("iniciar").style.display = "none";
                     perguntaDiv.style.display = "block";
-                    document.getElementById("botoes").style.display = "block";
+                    document.getElementById("botoes").style.display = "flex";
                     mostrarPergunta();
                 }
         
@@ -143,14 +150,17 @@
                     perguntaDiv.style.display = "none";
                     document.getElementById("botoes").style.display = "none";
                     resultadoDiv.style.display = "block";
-                    resultadoDiv.innerHTML = "<h2>Resultados</h2>" + respostasSelecionadas.map(texto => `<p>${texto}</p>`).join("");
+                    resultadoDiv.innerHTML = "<h2>Resultados:</h2>" + respostasSelecionadas.map(texto => `<p>${texto}</p>`).join("");
                 }
             </script>
         </section>
     </main>
         <footer>
             <nav>
-                <p>Copyright - Todos os direitos reservados &copy;2024</p>
+                <p class="footerespacar"> Copyright - Alguns direitos reservados &copy;2024</p>
+                        <p>
+                            <strong>Colaboradores: </strong>Maria Aparecida dos Santos Costa, Maria Carolina da Silveira, Maria Clara Pavanello Giareta, Pedro Gabriel Gonçalves, Vitor Manoel Silva Santana e Vitória de Souza.
+                        </p>
                 <ul>
                     <li>
                         <a href="https://www.instagram.com/saudemental_ifc/"><span

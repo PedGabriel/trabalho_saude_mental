@@ -238,9 +238,9 @@ section.tratamento div p span.semcor {
 						   Questionário
 ==================================================================*/
 
-.questionario section.mudarCorQuestionario{
+.questionario section.mudarQuestionario{
 	background-color: #7058a7;
-	padding: 4vw 2vw 2vw 4vw;
+	padding: 1vw 4vw 9vw 4vw;
 	border-radius: 30px;
 	margin-top: 2vw;
 }
@@ -250,11 +250,12 @@ section.tratamento div p span.semcor {
 	background-color: #7058a7;
 	margin-top: 5vw;
 	padding: 2vw;
-	border-radius: 15px;
+	border-radius: 30px;
 	color: white;
 }
 p.aviso {
 	line-height: 150%;
+	word-spacing: 3px;
 	font-weight: 700;
 	text-align: center;
 	font-size: calc(13px + 0.3vw)
@@ -273,10 +274,42 @@ p.aviso {
 	color: #7058a7;
 	font-size: 1.2rem;
 }
-.questionario h2 {
+.questionario h1 {
 	font-size: 2rem;
 	color: white;
+	margin-bottom: 6vw;
 }
+#pergunta {
+	color: white;
+	text-align: center;
+	font-size: 1.2rem;
+	margin-top: 5vw;
+	margin-bottom: 2vw;
+}
+#botoes {           
+	justify-content: center;     
+	gap: 10px;
+}
+#botoes button {
+	 padding: 15px 25px;
+    font-size: 1.2rem;
+    margin: 0;
+    border-radius: 70px;  
+}
+#resultado {
+	color: white;
+	line-height: 160%;
+}
+#resultado p {
+	margin-top: 3vw;
+}
+#resultado h2 {
+	text-align: center;
+	font-size: 1.4rem;
+	font-weight: 600;
+}
+
+
 /*==============================================================
 						   Transtornos
 ===============================================================*/
@@ -430,12 +463,13 @@ section.cvv div.imag div img{
 	
 
 /*==============================================================
-						   Rodapé
+						   footer
 ===============================================================*/
 footer{
 	background-color: #dbcdf3;
 	margin: 3vw 0 0 0;
 	padding: 2vw;
+	line-height: 140%;
 }
 footer ul{
 	display: flex;
@@ -452,5 +486,11 @@ footer span {
 footer a {
 	margin: 0 2vw 0 0;
 	color: #7058a7;
+}
+footer .footerespacar {
+	margin-bottom: 2vw;
+}
+footer strong {
+	font-weight: 600;
 }
 
