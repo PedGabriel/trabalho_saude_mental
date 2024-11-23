@@ -470,7 +470,7 @@ section.cvv div.imag div img{
 ===============================================================*/
 footer{
 	background-color: #dbcdf3;
-	margin: 3vw 0 0 0;
+	margin: 2vw 0 0 0;
 	padding: 2vw;
 	line-height: 140%;
 }
@@ -483,7 +483,7 @@ footer p {
 	text-align: center;
 	color: #7058a7;
 }
-footer span {
+footer ul.social li span{
 	font-size: 2rem;
 }
 footer a {
@@ -496,4 +496,9 @@ footer .footerespacar {
 footer strong {
 	font-weight: 600;
 }
-
+footer p.git ul li{
+	font-size: xx-small
+}
+footer p.git ul li a span{
+	font-size: xx-small
+}
