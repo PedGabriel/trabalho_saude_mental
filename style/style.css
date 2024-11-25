@@ -358,22 +358,28 @@ section.transtornos h1 {
 	width: 250px;
 	margin-left: 2vw;
 }
+.laura {
+	margin-top: 2.5vw;
+}
+.panela {
+	margin-top: 1.7vw;
+}
 .mudarPraBaixo {
 	margin-bottom: 1vw;
 }
 .mudarBaixo {
-	margin-top: 4vw;
+	margin-top: 0.5vw;
 }
 .mudarBaixo2 {
-	margin-top: 5vw;
+	margin-top: 2vw;
 }
 .mudarBipolar {
-	margin-top: 3.5vw;
+	margin-top: 0.5vw;
 }
 div.divtranstornos {
 	display: flex;
 	justify-content: center;
-	background-color: #7058a7;
+	background-color: #7058a7c7;
 	color: white;
 	border-radius: 20px;
 	padding: 2vw;
