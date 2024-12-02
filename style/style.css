@@ -14,7 +14,7 @@
 						   Geral
 ==================================================================*/
 html{
-	font-size: calc(15px + 0.390625vw);
+	font-size: calc(15px + 0.390625vw);	
 }
 body {
    background-color:#f5f3ff ;
@@ -33,7 +33,7 @@ a {
 ================================================================*/
 header div.menusEmCima {
 	position: absolute;
-	width: 90%;
+	width: 87.5%;
 	min-height: 4vw;
 	padding: 0 95px;
 	display: flex;
@@ -233,6 +233,9 @@ section.tratamento div p span {
 }
 section.tratamento div p span.semcor {
 	color: white;
+}
+section.image{
+	text-align: center;
 }
 /*==================================================================
 						   Questionário
@@ -508,3 +511,4 @@ footer p.git ul li{
 footer p.git ul li a span{
 	font-size: xx-small
 }
+
