@@ -517,3 +517,21 @@ footer nav strong {
 footer nav ul.social  {
 	margin: 30px 0 0 0; 
 }
+
+
+/*NÃO MUDEM A ORDEM DOS BGLH PQ DA ERRO*/
+
+/*Para editar em desktops*/
+@media (max-width: 2560px) {
+	
+}
+
+/*Para editar em tablets*/
+@media (max-width: 1024px) {
+	
+}
+
+/*Para editar em celulares*/
+@media (max-width: 600px) {
+	
+}
