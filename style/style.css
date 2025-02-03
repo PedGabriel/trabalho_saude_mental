@@ -10,7 +10,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display:ital@0;1&family=Fjalla+One&family=Lilita+One&family=Oleo+Script:wght@400;700&family=Unlock&family=Varela+Round&display=swap');
 
-/*================================================================
+/*================================================================ 
 						   Geral
 ==================================================================*/
 html{
@@ -504,11 +504,16 @@ footer .footerespacar {
 }
 footer strong {
 	font-weight: 600;
+	color: #7058a7;
 }
-footer p.git ul li{
-	font-size: xx-small
+div.git {
+	margin-left: 10vw;
 }
-footer p.git ul li a span{
-	font-size: xx-small
-}
+footer nav strong {
+	line-height: 300%;
+	justify-content: center;
 
+}
+footer nav ul.social  {
+	margin: 30px 0 0 0; 
+}
