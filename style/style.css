@@ -42,12 +42,24 @@ header div.menusEmCima {
 	background-color: #f5f3ff;
 	padding-bottom: 2vw;
 	margin-top: -2vw;
+	
 }
 header .imagemHeader img {
 	width: 40px;
 	background-color: #dbcdf3;
 	padding: 1vw;
 	border-radius: 100px;
+	margin-right: 1vw;
+
+}
+header .imagemHeader a{
+	display: flex;
+	align-items: center;
+}
+header .imagemHeader a h2{
+	font-family: "Poppins", sans-serif;
+	color: #7058a7;
+	font-weight: 600;
 }
 header ul{
 	position: relative;
@@ -197,21 +209,32 @@ section.diferenca div.conteudo p{
 /*==================================================================
 						   Tratamento
 ==================================================================*/
-section.tratamento{
-	display: flex;
-}
-section.tratamento div {
+
+section.tratamento div.branco {
 	background-color: white;
 	border-radius: 10vw;
 	padding: 4.5vw 3vw 3vw 3vw;
 	margin: 20px 10px;
 	margin-top: 7vw;
 }
+section.tratamento .principal{
+	display: flex;
+	margin-bottom: 2vw
+}
+section.tratamento img{
+	height: 44.5vw;
+	width: auto;
+	border-radius: 20px;
+}
 section.tratamento div.psicologo {
 	background-color:#7058a7;
 	color: white;
 	margin-left: 3vw;
 	margin-right: 3vw;
+	border-radius: 10vw;
+	padding: 4.5vw 3vw 3vw 3vw;
+	margin: 20px 10px;
+	margin-top: 7vw;
 }
 section.tratamento div h2 {
 	font-size: 1.5rem;
@@ -281,6 +304,11 @@ p.aviso {
 	font-size: 2rem;
 	color: white;
 	margin-bottom: 6vw;
+}
+.puple h1{
+	color: #7058a7;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
 }
 #pergunta {
 	color: white;
