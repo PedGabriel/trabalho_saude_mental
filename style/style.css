@@ -672,10 +672,6 @@ footer p.git ul li a span{
 
 /*NÃO MUDEM A ORDEM DOS BGLH PQ DA ERRO*/
 
-/*Para editar em desktops*/
-@media (max-width: 2560px) {
-
-}
 
 /*Para editar em tablets*/
 @media (max-width: 1024px) {
