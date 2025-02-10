@@ -26,7 +26,7 @@
                     </li>
                     <li class="clicar">
                         <a href="transtornos.html">Transtornos<span class="fa-solid fa-angle-down"></span></a>
-                        <ul>
+                        <ul class="gaveta">
                             <li>
                                 <a href="ansiedade.html">Ansiedade</a>
                             </li>
@@ -194,15 +194,17 @@
         {
             item.addEventListener('click', function(e)
             {
-                let estado = this.parentNode.querySelector('body header nav ul ul').style.display;
+                e.preventDefault();
+                console.log("entrou")
+                let estado = document.querySelector(`.gaveta`).style.display;
     
                 if (estado == "block") 
                 {
-                    this.parentNode.querySelector('body header nav ul ul').style.display="none";
+                    this.parentNode.querySelector('.gaveta').style.display="none";
                 }
                 else
                 {
-                    this.parentNode.querySelector('body header nav ul ul').style.display="block";
+                    this.parentNode.querySelector('.gaveta').style.display="block";
                     console.log("Foi");
                 }
             })
