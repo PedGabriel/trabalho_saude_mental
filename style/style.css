@@ -33,7 +33,7 @@ a {
 ================================================================*/
 header div.menusEmCima {
 	position: absolute;
-	width: 87.5%;
+	width: 90%;
 	min-height: 4vw;
 	padding: 0 95px;
 	display: flex;
@@ -89,6 +89,10 @@ header ul li:hover ul{
 	display: block;
 }
 header li.atual a{
+	color: #7058a7;
+	font-weight: 600;
+}
+.atual2 {
 	color: #7058a7;
 	font-weight: 600;
 }
@@ -663,4 +667,22 @@ footer p.git ul li a span{
 		width: auto;
 		height: auto;
 	}
+}
+
+
+/*NÃO MUDEM A ORDEM DOS BGLH PQ DA ERRO*/
+
+/*Para editar em desktops*/
+@media (max-width: 2560px) {
+
+}
+
+/*Para editar em tablets*/
+@media (max-width: 1024px) {
+
+}
+
+/*Para editar em celulares*/
+@media (max-width: 600px) {
+
 }
