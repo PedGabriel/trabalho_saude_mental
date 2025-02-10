@@ -24,7 +24,7 @@
                     <li class="atual">
                         <a href="index.html">Principal</a>
                     </li>
-                    <li>
+                    <li class="clicar">
                         <a href="transtornos.html">Transtornos<span class="fa-solid fa-angle-down"></span></a>
                         <ul>
                             <li>
@@ -186,6 +186,29 @@
             </ul>
         </nav>
     </footer>
+    <script>
+
+        let elements = document.querySelectorAll('li.clicar');
+    
+        elements.forEach((item) => 
+        {
+            item.addEventListener('click', function(e)
+            {
+                let estado = this.parentNode.querySelector('body header nav ul ul').style.display;
+    
+                if (estado == "block") 
+                {
+                    this.parentNode.querySelector('body header nav ul ul').style.display="none";
+                }
+                else
+                {
+                    this.parentNode.querySelector('body header nav ul ul').style.display="block";
+                    console.log("Foi");
+                }
+            })
+        });
+    
+        </script>
 </body>
 
 </html>

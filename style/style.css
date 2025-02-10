@@ -548,9 +548,35 @@ footer p.git ul li a span{
 /*==============================================================
 					Responsividade
 ===============================================================*/
-@media screen and (max-width: 900px){
-	header nav{
+@media screen and (max-width: 600px){
+	
+	header div.menusEmCima {
+		position: relative;
+		padding-bottom: 0;
+		display: block;
+		margin-top: 2vw;
+		padding: 0;
+		width: 100%;
+
+	}
+	header div.imagemHeader a{
+		justify-content: center;
+	}
+	body header nav ul {
+		display: block;
+		flex-wrap: wrap;
+	}
+	header ul li {
+		float: none;
+		text-align: center;
+	}
+	header ul li a{
+		text-align: center;
+		display: inline-block;
+	}
+	body header nav ul ul{
 		display: none;
+		position: relative;
 	}
 	header a h2{
 		font-size: 4vw;
@@ -669,16 +695,3 @@ footer p.git ul li a span{
 	}
 }
 
-
-/*NÃO MUDEM A ORDEM DOS BGLH PQ DA ERRO*/
-
-
-/*Para editar em tablets*/
-@media (max-width: 1024px) {
-
-}
-
-/*Para editar em celulares*/
-@media (max-width: 600px) {
-
-}
