@@ -586,6 +586,9 @@ footer p.git ul li a span{
 		text-align: center;
 		margin: 2vw 0 0 25vw;
 	}
+	section.diferenca .conteudo p{
+		padding: 15px;
+	}
 	/*==============================================================
 						   footer
 ===============================================================*/
