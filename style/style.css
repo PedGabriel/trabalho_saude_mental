@@ -540,3 +540,124 @@ footer p.git ul li a span{
 	font-size: xx-small
 }
 
+
+/*==============================================================
+					Responsividade
+===============================================================*/
+@media screen and (max-width: 900px){
+	header nav{
+		display: none;
+	}
+	header a h2{
+		font-size: 4vw;
+	}
+	header .banner img{
+		width: 100px;
+		height: 100px;
+		margin-top: 6vw;
+		object-fit: cover;
+	}
+	/*================================================================
+						   Homepage
+=================================================================*/
+	section.saude div{
+		flex-direction: column;
+	} 
+	.saude p.pUm{
+		padding: 10px;
+	}
+	.saude #aruma{
+		padding: 20px;
+		margin-top: 5vw;
+	}
+	section.diferenca .titulo h2{
+		font-size: 8vw;
+	}
+	section.diferenca .titulo .fontedif{
+		line-height: 200%;
+	}
+	section.diferenca .titulo .fontedif2{
+		line-height: 200%;
+	}
+	section.diferenca .conteudo {
+		flex-direction: column-reverse;
+	}
+	section.diferenca .conteudo img{
+		text-align: center;
+		margin: 2vw 0 0 25vw;
+	}
+	/*==============================================================
+						   footer
+===============================================================*/
+	footer ul{
+		flex-wrap: wrap;
+		line-height: 120%;
+	}
+	footer ul.social{
+		font-size: 2vw;
+		margin-top: 2vw;
+	}
+	/*==============================================================
+						   Transtornos
+===============================================================*/
+	section.transtornos .divtranstornos{
+		flex-direction: column;
+		padding: 20PX;
+		margin-bottom: 4vw;
+	}
+	section.transtornos .divtranstornos img{
+		border-radius: 10px;
+		margin: 4vw 0 0 3vw;
+	}
+	section.transtornos .bipolar{
+		flex-direction: column;
+		padding: 20PX;
+		margin-bottom: 4vw;
+	}
+	section.transtornos .bipolar img{
+		border-radius: 10px;
+		margin: 4vw 0 0 3vw;
+	}
+	section.transtornos .tipos{
+		flex-direction: column;
+		width: 267vw;
+	}
+	section.transtornos .tipos .tipo{
+		margin-bottom: 5vw;
+	}
+	section.transtornos .tipos .tipo1{
+		margin-bottom: 5vw;
+	}
+	/*==================================================================
+						   Tratamento
+==================================================================*/
+	section.tratamento .principal{
+		flex-direction: column;
+	}
+	/*==============================================================
+						   cvv
+===============================================================*/
+	section.cvv .imag{
+		flex-direction: column;
+	}
+	section.cvv  h1{
+		font-size: 10vw;
+	}
+	section.cvv .imag div a{
+		margin: 0 3vw 0 3vw;
+		float: left;
+	}
+	section.cvv img{
+		max-width: 200px;
+		max-height: 200px;
+		width: auto;
+		height: auto;
+		margin: 10vw 0 2vw 5vw;
+	}
+	section.cvv iframe{
+		max-width: 200px;
+		max-height: 200px;
+		width: auto;
+		height: auto;
+	}
+}
