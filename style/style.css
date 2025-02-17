@@ -564,7 +564,7 @@ footer p.git ul li a span{
 	}
 	body header nav ul {
 		display: block;
-		flex-wrap: wrap;
+
 	}
 	header ul li {
 		float: none;
@@ -588,6 +588,7 @@ footer p.git ul li a span{
 		height: 100px;
 		margin-top: 6vw;
 		object-fit: cover;
+	}
 	}
 
 	/*================================================================
@@ -696,5 +697,5 @@ footer p.git ul li a span{
 		width: auto;
 		height: auto;
 	}
-}
+
 
